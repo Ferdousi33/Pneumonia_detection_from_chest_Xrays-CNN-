@@ -4,7 +4,7 @@
 This project implements a Convolutional Neural Network (CNN) to classify chest X-ray images as pneumonia or normal. The model uses data augmentation, normalization, dropout and transfer learning (MobileNetV2) to improve performance.
 
 ## Methodology :
-Prior to any overfitting prevention techniques, the model was trained using a learning rate of 0.001 and a batch size of 32. The training accuracy was high but validation accuracy was too low.The opposite case is seen in the loss curves indicating overfitting [Model Performance 1](images/model_performance.png)
+Prior to any overfitting prevention techniques, the model was trained using a learning rate of 0.001 and a batch size of 32. The training accuracy was high but validation accuracy was too low.The opposite case is seen in the loss curves indicating overfitting [Model Performance 1](images/model_performnace.png)
 
 Later keeping the batch size and learning rate same, dropout and regularization techniques were applied to reduce overfitting. Though accuracy did not show any significant improvement, loss decreased, indicating less overfit and model was learning better[Model Performance 2](images/model_performance2.png). 
 
