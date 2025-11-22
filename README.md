@@ -8,7 +8,7 @@ Prior to any overfitting prevention techniques, the model was trained using a le
 
 Later keeping the batch size and learning rate same, dropout and regularization techniques were applied to reduce overfitting. Though accuracy did not show any significant improvement, loss decreased, indicating less overfit and model was learning better[Model Performance 2](images/model_performnace2.png). 
 
-Lastly, The model was trained using a batch size of 64 and a learning rate of 0.0005. Data augmentation and Transfer learning using MobileNetV2 as a pre-trained backbone was employed, improving feature extraction but training time increased significantly almost 3 hrs. After training, the loss decreased sharply, indicating improved model stability.  Accuracy showed steady performance, suggesting that the model had become more confident in its predictions. However the curves are not fully ideal yet [Model Performance 3](images/model_performance3.png).
+Lastly, The model was trained using a batch size of 64 and a learning rate of 0.0005. Data augmentation and Transfer learning using MobileNetV2 as a pre-trained backbone was employed, improving feature extraction but training time increased significantly almost 3 hrs. After training, the loss decreased sharply, indicating improved model stability.  Accuracy showed steady performance, suggesting that the model had become more confident in its predictions. However the curves are not fully ideal yet [Model Performance 3](images/model_performnace3.png).
 
 To test the model prediction capability, a sample chest X-ray labeled as pneumonia was passed. The model output a probability of 0.9888 for the pneumonia class, demonstrating high confidence in its prediction.
 
