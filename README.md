@@ -1,7 +1,7 @@
 ## Pneumonia detection from chest Xrays(CNN)
 
 ## Overview : 
-This project implements a Convolutional Neural Network (CNN) to classify chest X-ray images as pneumonia or normal. The model uses data augmentation, normalization, dropout and transfer learning (MobileNetV2) to improve performance.
+This project implements a Convolutional Neural Network (CNN) to classify chest X-ray images as pneumonia or normal. The model uses data augmentation, normalization, dropout and transfer learning (MobileNetV2) to improve performance.This project uses the [Chest Xray Pneumonia Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) from kaggle.
 
 ## Methodology :
 Prior to any overfitting prevention techniques, the model was trained using a learning rate of 0.001 and a batch size of 32. The training accuracy was high but validation accuracy was too low.The opposite case is seen in the loss curves indicating overfitting [Model Performance 1](images/model_performnace.png)
