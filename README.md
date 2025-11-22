@@ -10,7 +10,7 @@ Later keeping the batch size and learning rate same, dropout and regularization 
 
 Lastly, The model was trained using a batch size of 64 and a learning rate of 0.0005. Data augmentation and Transfer learning using MobileNetV2 as a pre-trained backbone was employed, improving feature extraction but training time increased significantly almost 3 hrs. After training, the loss decreased sharply, indicating improved model stability.  Accuracy showed steady performance, suggesting that the model had become more confident in its predictions. However the curves are not fully ideal yet [Model Performance 3](images/model_performnace3.png).
 
-To test the model prediction capability, a sample chest X-ray labeled as pneumonia (images/pneumonia_Xray.jpeg) was passed. The model output a probability of 0.9888 for the pneumonia class, demonstrating high confidence in its prediction.
+To test the model prediction capability, a sample chest X-ray labeled as [pneumonia](images/pneumonia_Xray.jpeg) was passed. The model output a probability of 0.9888 for the pneumonia class, demonstrating high confidence in its prediction.
 
 ## Improvements :
 Fine tuning, evaluating with metrics, experimenting with different pre-trained models can be performed to improve convergence and overall performance.
